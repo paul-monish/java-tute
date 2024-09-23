@@ -1,0 +1,27 @@
+package inheritance.prac;
+
+//single inheritance
+class A {
+	int a = 5;
+
+	void showA() {
+		System.out.println("Value= " + a);
+	}
+}
+
+class B extends A {
+	int b = 6;
+
+	void showB() {
+		b = b + super.a;
+		System.out.println("Value= " + b);
+	}
+}
+
+public class SingleInheritance {
+	public static void main(String[] args) {
+		B b = new B();
+		b.showB();
+		b.showA();
+	}
+}
