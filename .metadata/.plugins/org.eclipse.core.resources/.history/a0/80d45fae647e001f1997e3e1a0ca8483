@@ -1,0 +1,16 @@
+package InterfacePrac;
+
+interface IFourth{
+	default void test() {
+		System.out.println("Test");
+	}
+}
+class Fourth implements IFourth{
+	
+}
+
+public class AdvInterface1 {
+	public static void main(String[] args) {
+		IFourth f=new Four
+	}
+}

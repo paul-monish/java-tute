@@ -1,0 +1,19 @@
+package InterfacePrac;
+
+import java.io.Serializable;
+
+/*
+ * single method interface-(Functional Interface)
+ * multiple method interface
+ * marker interface
+ */
+interface A{
+	
+}
+
+
+public class Interface1 {
+	public static void main(String[] args) {
+		
+	}
+}

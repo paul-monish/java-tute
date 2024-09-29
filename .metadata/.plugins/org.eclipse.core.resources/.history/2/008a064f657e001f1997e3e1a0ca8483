@@ -1,0 +1,11 @@
+package InterfacePrac;
+
+interface IFifth{
+	void show();
+}
+
+public class AdvInterface2 {
+	public static void main(String[] args) {
+
+	}
+}

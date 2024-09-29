@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="ConstructorExec"/>
@@ -13,4 +12,13 @@
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="java.lang.Cloneable"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="InterfacePrac.ISecond"/>
+    <fullyQualifiedTypeName name="InterfacePrac.IFirst"/>
+    <fullyQualifiedTypeName name="InterfacePrac.First"/>
+    <fullyQualifiedTypeName name="InterfacePrac.IThird"/>
+    <fullyQualifiedTypeName name="InterfacePrac.Fourth"/>
+    <fullyQualifiedTypeName name="InterfacePrac.IFourth"/>
+    <fullyQualifiedTypeName name="InterfacePrac.Fifth"/>
+    <fullyQualifiedTypeName name="InterfacePrac.IFifth"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

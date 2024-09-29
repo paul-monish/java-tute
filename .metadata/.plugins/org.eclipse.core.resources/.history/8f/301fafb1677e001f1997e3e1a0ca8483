@@ -1,0 +1,8 @@
+package basicPrac;
+
+public class ArrayPrac {
+	public static void main(String[] args) {
+		String [] arr;
+		String [] arr1= {"abc","efg","zxv"};
+	}
+}

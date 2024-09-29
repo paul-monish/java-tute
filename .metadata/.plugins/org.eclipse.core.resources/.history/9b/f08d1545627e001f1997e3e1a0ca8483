@@ -1,0 +1,28 @@
+package InterfacePrac;
+
+
+/*
+ * single method interface-(Functional Interface)
+ * multiple method interface
+ * marker interface
+ */
+interface IFirst{
+	int a=1;
+	void disp();
+}
+
+class First implements IFirst{
+
+	
+	public void disp() {
+		
+		System.out.println("In First");
+	}
+	
+}
+
+public class Interface1 {
+	public static void main(String[] args) {
+		
+	}
+}
