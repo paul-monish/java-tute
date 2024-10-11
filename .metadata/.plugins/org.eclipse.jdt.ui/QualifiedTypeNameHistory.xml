@@ -21,4 +21,11 @@
     <fullyQualifiedTypeName name="InterfacePrac.Fifth"/>
     <fullyQualifiedTypeName name="InterfacePrac.IFifth"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.Throwable"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="ExceptionPrac.CustomException"/>
 </qualifiedTypeNameHistroy>

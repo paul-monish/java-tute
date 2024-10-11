@@ -1,0 +1,41 @@
+package ExceptionPrac;
+
+
+
+public class RuntimeExcep {
+
+	
+	public static void main(String[] args) {
+		int arr[]=new int[5];
+		String s="abs";
+		String s1="s";
+//		try {
+//			int a=10/2;
+//			System.out.println(s1.length());
+//			int i=Integer.parseInt(s);
+//			arr[10]=5;
+//		}
+//		catch(ArithmeticException ex) {
+//			System.out.println("Not devide by zero");
+//		}
+//		catch(ArrayIndexOutOfBoundsException ex) {
+//			System.out.println("Check Index of array");
+//		}
+//		catch(Exception ex) {
+//			System.out.println(ex);
+//		}
+		
+		try {
+			System.out.println(s1.length());
+
+			try {
+				int a=10/0;
+			}catch(ArithmeticException ex) {
+				System.out.println("Not devide by zero");
+			}
+		}catch(Exception ex) {
+			System.out.println(ex.getMessage());
+		}
+		System.out.println("After Division");
+	}
+}

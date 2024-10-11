@@ -1,0 +1,17 @@
+package ExceptionPrac;
+
+
+
+public class RuntimeExcep {
+
+	
+	public static void main(String[] args) {
+		try {
+			int a=10/2;
+		}
+		catch(Exception ex) {
+			System.out.println(ex);
+		}
+		System.out.println("After Division");
+	}
+}
