@@ -1,0 +1,29 @@
+package SwingExample;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+class Addition extends JFrame{
+	public Addition() {
+		JTextField t1=new JTextField(20);
+		JTextField t2=new JTextField(20);
+		JButton b=new JButton("+");
+		
+		add(t1);
+		add(t2);
+		add(b);
+		setLayout(new FlowLayout());
+		setVisible(true);
+		setSize(400,400);	
+	}
+}
+public class Calculator {
+
+	public static void main(String[] args) {
+		new Addition();
+	}
+
+}

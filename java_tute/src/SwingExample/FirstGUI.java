@@ -1,0 +1,32 @@
+package SwingExample;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+class ABC extends JFrame{
+	public ABC() {
+		JLabel l=new JLabel("Hello World");
+		JLabel l1=new JLabel("Hello World");
+		JButton b=new JButton("Click!");
+		add(b);
+		add(l);
+		add(l1);
+		setVisible(true);
+		setSize(400, 400);
+		FlowLayout fl=new FlowLayout();
+		setLayout(fl);
+	}
+	
+}
+public class FirstGUI {
+
+	public static void main(String[] args) {
+		ABC ab=new ABC();
+//		ab.setVisible(true);
+//		ab.setSize(400, 400);
+	}
+
+}

@@ -1,0 +1,46 @@
+package SwingExample;
+
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+class Addition extends JFrame implements ActionListener{
+	JLabel l;
+	public Addition() {
+		JTextField t1=new JTextField(20);
+		JTextField t2=new JTextField(20);
+		JButton b=new JButton("+");
+		l=new JLabel("Result");
+		add(t1);
+		add(t2);
+		add(b);
+		add(l);
+	
+		b.addActionListener(this);
+		
+		setLayout(new FlowLayout());
+		setVisible(true);
+		setSize(400,400);	
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		int num1=5;
+		int num2=6;
+		int res=num1+num2;
+		l.setText(res+ "");
+		
+	}
+}
+public class Calculator {
+
+	public static void main(String[] args) {
+		new Addition();
+	}
+
+}

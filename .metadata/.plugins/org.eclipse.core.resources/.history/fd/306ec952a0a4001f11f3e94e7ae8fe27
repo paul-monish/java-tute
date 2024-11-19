@@ -1,0 +1,14 @@
+package SwingExample;
+
+import javax.swing.JFrame;
+
+class ABC extends JFrame{
+	
+}
+public class FirstGUI {
+
+	public static void main(String[] args) {
+		ABC ab=new ABC();
+	}
+
+}
